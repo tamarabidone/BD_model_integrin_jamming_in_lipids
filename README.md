@@ -11,24 +11,24 @@ To download ``pyBrown`` package for Brownian dynamics simulations, visit [here](
 To install ``pyBrown``:
 1. *Configuration.* Type:
 ```shell
-$ ./configure --prefix=DIR --with-lapack=LAPACK_LIBS
+./configure --prefix=DIR --with-lapack=LAPACK_LIBS
 ```
 where ``DIR`` is the installation directory (``/usr/local/`` by default) and ``LAPACK_LIBS`` is lapack libraries to use (e.g., ``--with-lapack="-llapack"``).
 
 2. *Compilation.* Type:
 ```shell
-$ make
+make
 ```
 
 3. *Installation.* Type:
 ```shell
-$ make install
+make install
 ```
 
 4. *Testing.* Type:
 ```shell
-$ cd src/bdsim/tests/
-$ make test
+cd src/bdsim/tests/
+make test
 ```
 
 ## Simulations
