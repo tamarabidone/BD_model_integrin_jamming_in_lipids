@@ -1,4 +1,4 @@
-1. Run bash scripts to prepare *.json inputs
+1. Run bash scripts to prepare ``*.json`` inputs
 2. Run BD simulations:
 ``` shell
 BD.py ???.json
